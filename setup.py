@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-package_name = 'mecharm_skills_ROS2'  # muss exakt mit <name> in package.xml übereinstimmen
+package_name = 'mecharm_skills_ros2'  # muss exakt mit <name> in package.xml übereinstimmen
 
 setup(
     name=package_name,
@@ -23,9 +23,7 @@ setup(
         'console_scripts': [
             'mqtt_client    = mqtt_client:main',
             'main_node      = main_node:main',
-            'fixed_move_to_object = skills.fixed_move_to_object:main',
-            # falls du skill_server behältst:
-            # 'skill_server   = Skill_server:main',
+            'fixed_move_to_object = skills.fixed_move_to_object:main'
         ],
     },
 )
