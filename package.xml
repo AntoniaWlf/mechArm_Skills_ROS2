@@ -4,7 +4,7 @@
   <name>mecharm_skills</name>
   <version>0.1.0</version>
   <description>
-    ROS 2–Package zur Orchestrierung von MechArm-Skills und als MQTT-Capability-Client.
+    ROS2–Package zur Orchestrierung von MechArm-Skills und als MQTT-Capability-Client.
   </description>
   <maintainer email="wolf_antonia@gmx.de">Dein Name</maintainer>
   <license>MIT</license>

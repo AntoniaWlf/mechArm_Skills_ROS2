@@ -14,8 +14,8 @@ setup(
         'pymycobot',
     ],
 
-    author='Dein Name',
-    author_email='deine.email@example.com',
+    author='Antonia Wolf',
+    author_email='wolf_antonia@gmx.de',
     description='ROS2-Package zur Orchestrierung von MechArm-Skills und MQTT-Client',
     license='MIT',
 
@@ -23,6 +23,7 @@ setup(
         'console_scripts': [
             'mqtt_client    = mqtt_client:main',
             'main_node      = main_node:main',
+            'fixed_move_to_object = skills.fixed_move_to_object:main',
             # falls du skill_server behältst:
             # 'skill_server   = Skill_server:main',
         ],
