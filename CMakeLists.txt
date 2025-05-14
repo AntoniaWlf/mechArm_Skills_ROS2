@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(mecharm_skills)
+project(mecharm_skills_ROS2)
 
 # 1) Finde ament- und ROS-2-Pakete
 find_package(ament_cmake REQUIRED)

@@ -6,7 +6,7 @@ def generate_launch_description():
 
         # MQTT-Client bleibt unverändert
         Node(
-            package='mecharm_skills',
+            package='mecharm_skills_ROS2',
             executable='mqtt_client',
             name='mqtt_client',
             output='screen',
@@ -14,7 +14,7 @@ def generate_launch_description():
 
         # Skill-Orchestrator statt skill_server
         Node(
-            package='mecharm_skills',
+            package='mecharm_skills_ROS2',
             executable='main_node',       # so wie in setup.py registriert
             name='skill_orchestrator',
             output='screen',

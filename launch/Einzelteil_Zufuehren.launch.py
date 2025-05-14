@@ -19,7 +19,7 @@ def generate_launch_description():
 
         # 3) Node-Definition
         Node(
-            package='mecharm_skills',      
+            package='mecharm_skills_ROS2',      
             executable='main_node',        
             name='einzelteil_zufuehren',    
             output='screen',               

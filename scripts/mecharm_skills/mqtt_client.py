@@ -111,7 +111,7 @@ class MqttCapabilityClient(Node):
             if capability_name:
                 self.get_logger().info(f"Capability-Befehl empfangen: {capability_name}")
                 # Starten Sie die Launch-Datei für die Capability
-                os.system(f"ros2 launch mecharm_skills {capability_name}.launch.py")
+                os.system(f"ros2 launch mecharm_skills_ROS2 {capability_name}.launch.py")
             else:
                 self.get_logger().warn("Ungültiger Capability-Befehl empfangen.")
         except Exception as e:

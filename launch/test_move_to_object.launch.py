@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
 
         Node(
-            package='mecharm_skills',      # muss exakt so in package.xml stehen
+            package='mecharm_skills_ROS2',      # muss exakt so in package.xml stehen
             executable='main_node',        # wie in setup.py registriert
             name='test_move_to_object',
             output='screen',

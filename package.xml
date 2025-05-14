@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <!-- Paket-Metadaten -->
-  <name>mecharm_skills</name>
+  <name>mecharm_skills_ROS2_ROS2</name>
   <version>0.1.0</version>
   <description>
     ROS2–Package zur Orchestrierung von MechArm-Skills und als MQTT-Capability-Client.

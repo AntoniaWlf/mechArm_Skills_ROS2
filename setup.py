@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-package_name = 'mecharm_skills'  # muss exakt mit <name> in package.xml übereinstimmen
+package_name = 'mecharm_skills_ROS2'  # muss exakt mit <name> in package.xml übereinstimmen
 
 setup(
     name=package_name,

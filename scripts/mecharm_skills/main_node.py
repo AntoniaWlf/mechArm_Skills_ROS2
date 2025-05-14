@@ -7,7 +7,7 @@ from rclpy.node import Node
 class SkillOrchestrator(Node):
     """
     Liest beim Start einen Parameter 'skills' (Liste von Klassennamen),
-    lädt diese Klassen aus dem Paket 'mecharm_skills.skills', instanziiert
+    lädt diese Klassen aus dem Paket 'mecharm_skills_ROS2.skills', instanziiert
     sie und führt sie nacheinander aus.
     """
 
@@ -22,7 +22,7 @@ class SkillOrchestrator(Node):
         self.skills = []
         for name in skill_names:
             try:
-                module = importlib.import_module(f'mecharm_skills.skills.{name.lower()}')
+                module = importlib.import_module(f'mecharm_skills_ROS2.skills.{name.lower()}')
                 cls    = getattr(module, name)
                 self.add_skill(cls())
                 self.get_logger().info(f"Skill geladen: {name}")

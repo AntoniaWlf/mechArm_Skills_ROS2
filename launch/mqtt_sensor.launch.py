@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='mecharm_skills',
+            package='mecharm_skills_ROS2',
             executable='mqtt_sensor.py',
             name='mqtt_sensor_node',
             output='screen',
